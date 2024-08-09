@@ -2,9 +2,11 @@ body{
     background: linear-gradient(to top, #3D60FE, #FE3D3D, #FEF83D, #67EA65);
     font-family: Poppins;
     font-style: normal;
+    color: white;
 }
 a{
-    color: white;
+    font-family: Poppins, bold;
+    color: black;
     text-decoration: none;
 }
 .content .card .figure{
