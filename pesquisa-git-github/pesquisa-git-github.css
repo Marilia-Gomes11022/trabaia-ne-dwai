@@ -1,20 +1,13 @@
 body{
-    background: linear-gradient(to top, blue, red, yellow, green);
+    background: linear-gradient(to top, #3D60FE, #FE3D3D, #FEF83D, #67EA65);
     font-family: Poppins;
     font-style: normal;
 }
-.header .h1{
-    padding: 0%;
-}
-.hero{
-    border-bottom: white;
-}
-.a{
+a{
     color: white;
-    padding: 5px;
-    border-right: 1px;
+    text-decoration: none;
 }
-.header .content .figure{
-    width: 10px;
-    height: 10px;
+.content .card .figure{
+    width: 50%;
+    height: 50%;
 }
