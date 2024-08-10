@@ -1,8 +1,9 @@
 body{
-    background: linear-gradient(to top, #3D60FE, #FE3D3D, #e8ef23, #46db44);
+    background: linear-gradient(to top,#46db44, #3D60FE, #FE3D3D, #e8ef23, #46db44);
     font-family: Poppins;
     font-style: normal;
     color: rgb(7, 7, 7);
+    height: 80%;
 }
 a{
     font-family: Poppins, bold;
@@ -10,28 +11,9 @@ a{
     text-decoration: none;
 }
 .card figure img{
-    width: 100px;
+    width: 100%;
   }
 .content .card .figure{
     width: 50%;
     height: 50%;
 }
-.container-button button{
-    align-items: center;
-    background: #005f2c90;
-    color: #ffffff;
-    border: 0;
-    margin-bottom: 10px;
-    padding: 8px;
-  }
-  .container-button2 button{
-    align-items: center;
-    background: #bdffbc00;
-    color: #000000;
-    border: 0;
-    margin-bottom: 10px;
-    padding: 8px;
-  }
-  table{
-    border: 1
-  }
