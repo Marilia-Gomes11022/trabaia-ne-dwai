@@ -1,3 +1,30 @@
 body{
     font-family: "Sora", sans-serif;
+    background-color: #0F315C;
+}
+
+h1{
+    color: #4CC8FF;
+}
+
+p{
+    color: #ffffff;
+}
+
+section .plug{
+    height: 40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-top: -30px;
+
+    background-image: url(imgs/vector.png), url(imgs/vector-2.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: center left,center right ;
+}
+
+section .hr{
+    margin-top: 23px;
+    border: 2px solid white;
 }
