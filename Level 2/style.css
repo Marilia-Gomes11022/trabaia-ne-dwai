@@ -93,3 +93,13 @@ font-size: 16px;
 hr.linha{
     border-color: #FDB32F;
 }
+a {
+    border: 2px solid cornsilk;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: cornsilk;
+    border-radius: 8px;
+    top: 50%; 
+    align-items: center;
+}
+  
