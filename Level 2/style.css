@@ -50,9 +50,9 @@ section .hr{
 }
 main .name-figma{
     border: 2px solid black;
-    position: relative;
+    position: absolute;
     text-align: center;
-
+    padding: 0.25em 1em;
 }
 main .name-figma img{
     position: absolute;
@@ -69,10 +69,10 @@ main .name-figma.designer img{
 main .name-figma.dev{
     background: #29973b;
     color: #ffffff;
+    right: -50px;
     width: 120px;
     margin: 30px;
     position: relative;
-    display: table;
 }
 main .name-figma.dev img{
     left: 0px;
@@ -81,25 +81,56 @@ main .name-figma.dev img{
 span{
     color: #FDB32F;
 }
-address{
-color: #ffffff;
-text-align: left;
-width: 550px;
-margin: 30px;
-position: relative;
-display: table;
-font-size: 16px;
-}
-hr.linha{
-    border-color: #FDB32F;
-}
-a {
+a{
     border: 2px solid cornsilk;
     padding: 10px 20px;
     text-decoration: none;
     color: cornsilk;
-    border-radius: 8px;
+    border-radius: 80px;
     top: 50%; 
     align-items: center;
 }
-  
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+main.conteudo{
+max-width: 700;
+position: relative;
+}
+main.conteudo h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+header{
+    padding-top: 24px;
+}
+
+footer{
+    border-top: #FDB32F 3px solid;
+}
+footer address{
+    float: table;
+    width: 100%;
+}
+footer address > div{
+    color: #ffffff;
+    display: inline-block;
+    width: 30%;
+}
+footer address div strong{
+    margin-top: 1em;
+    display: block;
+}
+footer section{
+    padding: 1em;
+    text-align: center;
+    border-top: 1px;
+}
