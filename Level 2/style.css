@@ -6,10 +6,15 @@ body{
 h1{
     color: #4CC8FF;
     text-align: center;
+
+    background: url(imgs/seta-amarela.png);
+    background-repeat: no-repeat;
+    background-position: 10 10px;
 }
 
 p{
     color: #ffffff;
+    
 }
 
 section .plug{
@@ -27,4 +32,25 @@ section .plug{
 section .hr{
     margin-top: 23px;
     border: 2px solid white;
+}
+
+main .name-figma img{
+    position: absolute;
+}
+main .name-figma .designer{
+    background: #FDB32F;
+}
+main .name-figma .designer img{
+    right: -50px;
+    bottom: -50px;
+}
+main .name-figma .dev{
+    background: #29973b;
+}
+main .name-figma .dev img{
+    left: -50px;
+    top: -50px;
+}
+span{
+    color: #FDB32F;
 }
