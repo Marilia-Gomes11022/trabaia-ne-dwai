@@ -6,15 +6,30 @@ body{
 h1{
     color: #4CC8FF;
     text-align: center;
-
-    background: url(imgs/seta-amarela.png);
-    background-repeat: no-repeat;
-    background-position: 10 10px;
+    width: 550px;
+    margin: auto;
+    position: relative;
+    display: table;
+    font-size: 28px;
 }
 
-p{
+p.subtitulo{
     color: #ffffff;
-    
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    position: relative;
+    display: table;
+    font-size: 14px;
+}
+p.comentario{
+    color: #ffffff;
+    text-align: left;
+    width: 270px;
+    margin: 50px;
+    position: relative;
+    display: table;
+    font-size: 15px;
 }
 
 section .plug{
@@ -33,24 +48,48 @@ section .hr{
     margin-top: 23px;
     border: 2px solid white;
 }
+main .name-figma{
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
 
+}
 main .name-figma img{
     position: absolute;
 }
-main .name-figma .designer{
+main .name-figma.designer{
     background: #FDB32F;
+    width: 90px;
 }
-main .name-figma .designer img{
-    right: -50px;
-    bottom: -50px;
+main .name-figma.designer img{
+    right: -30px;
+    bottom: -30px;
+    position: absolute;
 }
-main .name-figma .dev{
+main .name-figma.dev{
     background: #29973b;
+    color: #ffffff;
+    width: 120px;
+    margin: 30px;
+    position: relative;
+    display: table;
 }
-main .name-figma .dev img{
-    left: -50px;
+main .name-figma.dev img{
+    left: 0px;
     top: -50px;
 }
 span{
     color: #FDB32F;
+}
+address{
+color: #ffffff;
+text-align: left;
+width: 550px;
+margin: 30px;
+position: relative;
+display: table;
+font-size: 16px;
+}
+hr.linha{
+    border-color: #FDB32F;
 }
