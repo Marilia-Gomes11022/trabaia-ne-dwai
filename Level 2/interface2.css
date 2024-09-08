@@ -4,6 +4,9 @@ body{
 header{
     background-color: #203c86;
 }
+.redes-sociais{
+    display: inline;
+}
 .regua-header{
     display: block;
     padding: 0;
@@ -15,15 +18,47 @@ header{
 .regua-sobre{
     display: block;
     margin: 10px 0px;
-    width: 10%;
+    width: 4.7%;
     height: 1px;
     background-color: #ffc82c;
+}
+.regua-descobri{
+    display: block; 
+    margin: 3px 0px;
+    padding: 0;
+    width: 14%;
+    height: 1.5px;
+    background-color: #ffc82c
 }
 .nav{
     position:relative ;
     top: 0px;
     display: inline;
     color: #ddd;
+}
+.text2 .title{
+    margin: 0px;
+}
+.text1{
+    margin-left: 100px;
+    margin-right: 550px;
+}
+.text2{
+    margin-left: 100px;
+    margin-right: 1000px;
+}
+.text2 .img-cima{
+    background-image: url(imgs/interface2/em-cima.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 630px;
+    left: 510px;
+    height: 100px;
+}
+.text2 .descricao{
+    border: 1px;
+    border-radius: 50px;
+    border-color: gray;
 }
 .header .container .nav .a{
     text-decoration: none;
