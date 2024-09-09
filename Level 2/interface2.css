@@ -1,19 +1,130 @@
-body{
+html, body{
     font-family: Lato;
+    width: 100%;
+    margin: 0;
 }
 header{
     background-color: #203c86;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-.redes-sociais h5{
+header section {
+    width: 80%;
+    text-align: right;
+}
+header .top {
+    height: auto;
+}
+header .top .content {
+    display: inline-block;
+}
+.top img{
+    width: 2%;
+}
+
+header .down {
+    height: auto;
+    display: inline-block;
+}
+header .down .logo{
+    float: left;
+}
+header .down .sumario {
+    display: inline-block;
+}
+.pipa {
+    display: block;
+    text-align: left;
+}
+.pipa .title h2 {
+    font-weight: bold;
+}
+.pipa .title p {
+    text-align: right;
+    color: #203c86;
+    font-size: 20px;
+    font-style: italic;
+}
+.pipa .title span {
+    text-align: right;
+    font-size: 15px;
+}
+.descobrimos {
+    display: inline-block;
+    width: 100%;
+}
+.descobrimos .left {
+    display: block;
+}
+.descobrimos .left .title span {
+    color: #203c86;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.descobrimos .left .title h2 {
+    color: #203c86;
+    text-align: left;
+    font-weight: bold;
+}
+.descobrimos .right {
+    display: block;
+}
+.gallery {
+    display: inline-block;
+}
+.gallery .title span {
+    color: #203c86;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.gallery .title h2 {
+    color: #203c86;
+    text-align: left;
+    font-weight: bold;
+}
+.gallery picture {
+    display: block;
+}
+footer {
+    background-color: #203c86;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer section {
+    width: 80%;
+    text-align: left;
+}
+.rodape {
+    height: auto;
+    display: block;
+}
+footer .rodape .logo {
+    float: left;
+}
+footer .rodape .contato{
+    display: inline-block;
+    font-size: 15px;
+}
+.rodape img {
+    width: 1.5%;
+}
+.contato .topicos {
+    color: #fff;
+}
+
+/* .redes-sociais h5{
     color: #ffff;
     padding-top: 10px;
     padding-right: 10px;
     text-align: right;
-}
-.redes-sociais img{
-    float: right;
-    width: 2%;
-    padding-right: 10px;
 }
 .regua-header{
     display: block;
@@ -23,10 +134,17 @@ header{
     height: 1px;
     background-color: #ddd;
 }
-.regua-sobre{
+.sumario{
     display: block;
-    margin: 10px 0px;
-    width: 4.7%;
+    color: #ffff;
+    padding-right: 10px;
+    text-align: right;
+}
+.regua-sobre{
+    display: block; 
+    margin: 2px 0px;
+    padding: 0;
+    width: 6%;
     height: 1px;
     background-color: #ffc82c;
 }
@@ -37,19 +155,10 @@ header{
     width: 19%;
     height: 2px;
     background-color: #ffc82c
-}
-.nav{
-    position:relative;
-    top: 0px;
-    display: inline;
-    color: #ddd;
-}
-.text2 .title{
-    margin: 0px;
-}
-.text1{
-    margin-left: 250px;
-    margin-right: 250px;
+} */
+/* .text1{
+    margin-left: 450px;
+    margin-right: 450px;
 }
 .text1 i{
     text-align: right;
@@ -79,52 +188,44 @@ header{
     border-radius: 50px;
     border-color: gray;
 }
-.header .container .nav .a{
-    text-decoration: none;
-    color:#ddd
+.container{
+    
+
 }
 footer{
     background: linear-gradient(130deg, #0d3f83 2 3.84%, #001736 73.02%);
     background: linear-gradient(130deg, #0D3F82 2 3.84%, #001736 73.02%);
 }
-.gallery{
+.gallery img{
+    display: flex;
 
 }
 .gallery h2{
     color: #2648A1;
+    padding-top: 550px;
+    padding-left: 50px;
 }
 .gallery-item h3{
     color: #0D3F82;
 }
 .gallery-item{
     display: inline;
-    float: right;
-    padding-top: 10px;
-    padding-right: 10px;
+    float: left;
+    width: 20%;
+    padding-top: 400px;
+    padding-left: 30px;
 }
 .left{
     float: left;
     width: 35%;
     padding-top: 100px;
     padding-left: 50px;
+    position: absolute;
 }
 .left .title{
     color: #2648A1;
 }
-.right{
-    padding-top: 190px;
-    padding-left: 50px;
-    float: right;
-    width: 50%;
-    padding-right: 10px;
-    border-radius: 20px;
-
-}
-.logo-cor{
+.descombrimos{
     display: inline;
-    float: left;
-    width: 0%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 100px;
 }
+*/
