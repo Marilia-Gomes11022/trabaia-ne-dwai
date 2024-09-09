@@ -4,13 +4,21 @@ body{
 header{
     background-color: #203c86;
 }
-.redes-sociais{
-    display: inline;
+.redes-sociais h5{
+    color: #ffff;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+.redes-sociais img{
+    float: right;
+    width: 2%;
+    padding-right: 10px;
 }
 .regua-header{
     display: block;
     padding: 0;
-    margin: 10px 0px;
+    margin: 50px 0px;
     width: 100%;
     height: 1px;
     background-color: #ddd;
@@ -24,14 +32,14 @@ header{
 }
 .regua-descobri{
     display: block; 
-    margin: 3px 0px;
+    margin: 2px 0px;
     padding: 0;
-    width: 14%;
-    height: 1.5px;
+    width: 19%;
+    height: 2px;
     background-color: #ffc82c
 }
 .nav{
-    position:relative ;
+    position:relative;
     top: 0px;
     display: inline;
     color: #ddd;
@@ -40,8 +48,19 @@ header{
     margin: 0px;
 }
 .text1{
-    margin-left: 100px;
-    margin-right: 550px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.text1 i{
+    text-align: right;
+}
+.text1 img{
+    display: inline;
+    float: left;
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 1000px;
 }
 .text2{
     margin-left: 100px;
@@ -67,5 +86,45 @@ header{
 footer{
     background: linear-gradient(130deg, #0d3f83 2 3.84%, #001736 73.02%);
     background: linear-gradient(130deg, #0D3F82 2 3.84%, #001736 73.02%);
+}
+.gallery{
 
+}
+.gallery h2{
+    color: #2648A1;
+}
+.gallery-item h3{
+    color: #0D3F82;
+}
+.gallery-item{
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.left{
+    float: left;
+    width: 35%;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.left .title{
+    color: #2648A1;
+}
+.right{
+    padding-top: 190px;
+    padding-left: 50px;
+    float: right;
+    width: 50%;
+    padding-right: 10px;
+    border-radius: 20px;
+
+}
+.logo-cor{
+    display: inline;
+    float: left;
+    width: 0%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
 }
