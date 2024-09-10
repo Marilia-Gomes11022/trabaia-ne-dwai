@@ -21,8 +21,14 @@ header .top {
 header .top .content {
     display: inline-block;
 }
+.top .content {
+    margin-right: 80px;
+    color: #fff;
+}
 .top img{
     width: 2%;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 header .down {
@@ -34,6 +40,8 @@ header .down .logo{
 }
 header .down .sumario {
     display: inline-block;
+    text-decoration: none;
+    color: white;
 }
 .pipa {
     display: block;
@@ -72,6 +80,7 @@ header .down .sumario {
 }
 .descobrimos .right {
     display: block;
+    float: right;
 }
 .gallery {
     display: inline-block;
@@ -89,8 +98,10 @@ header .down .sumario {
 }
 .gallery picture {
     display: block;
+    float: left;
+    margin-bottom: 20px;
 }
-footer {
+/* footer {
     background-color: #203c86;
     width: 100%;
     display: block;
@@ -118,6 +129,65 @@ footer .rodape .contato{
 }
 .contato .topicos {
     color: #fff;
+}
+.rodape button {
+    color: aqua;
+} */
+
+
+.rodape img {
+    width: 10%;
+}
+
+
+.rodape{
+    background-color: #203c86;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+.rodape p{
+    margin-bottom: 5px;
+}
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.rodape span{
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos{
+    width: calc(100% - 20px);
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
 }
 
 /* .redes-sociais h5{
