@@ -101,7 +101,7 @@ header .down .sumario {
     float: left;
     margin-bottom: 20px;
 }
-/* footer {
+footer {
     background-color: #203c86;
     width: 100%;
     display: block;
@@ -134,12 +134,9 @@ footer .rodape .contato{
     color: aqua;
 } */
 
-
 .rodape img {
     width: 10%;
 }
-
-
 .rodape{
     background-color: #203c86;
     color: white;
@@ -179,123 +176,3 @@ footer .rodape .contato{
     margin: 0px;
     text-align: center;
 }
-/*mobile*/
-@media (max-width: 768px) {
-    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-        width: calc(50% - 20px);
-        padding: 10px;
-    }
-    .rodape-div{
-        padding: 60px 0px 40px 0px;
-    }
-}
-
-/* .redes-sociais h5{
-    color: #ffff;
-    padding-top: 10px;
-    padding-right: 10px;
-    text-align: right;
-}
-.regua-header{
-    display: block;
-    padding: 0;
-    margin: 50px 0px;
-    width: 100%;
-    height: 1px;
-    background-color: #ddd;
-}
-.sumario{
-    display: block;
-    color: #ffff;
-    padding-right: 10px;
-    text-align: right;
-}
-.regua-sobre{
-    display: block; 
-    margin: 2px 0px;
-    padding: 0;
-    width: 6%;
-    height: 1px;
-    background-color: #ffc82c;
-}
-.regua-descobri{
-    display: block; 
-    margin: 2px 0px;
-    padding: 0;
-    width: 19%;
-    height: 2px;
-    background-color: #ffc82c
-} */
-/* .text1{
-    margin-left: 450px;
-    margin-right: 450px;
-}
-.text1 i{
-    text-align: right;
-}
-.text1 img{
-    display: inline;
-    float: left;
-    width: 20%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 1000px;
-}
-.text2{
-    margin-left: 100px;
-    margin-right: 1000px;
-}
-.text2 .img-cima{
-    background-image: url(imgs/interface2/em-cima.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 630px;
-    left: 510px;
-    height: 100px;
-}
-.text2 .descricao{
-    border: 1px;
-    border-radius: 50px;
-    border-color: gray;
-}
-.container{
-    
-
-}
-footer{
-    background: linear-gradient(130deg, #0d3f83 2 3.84%, #001736 73.02%);
-    background: linear-gradient(130deg, #0D3F82 2 3.84%, #001736 73.02%);
-}
-.gallery img{
-    display: flex;
-
-}
-.gallery h2{
-    color: #2648A1;
-    padding-top: 550px;
-    padding-left: 50px;
-}
-.gallery-item h3{
-    color: #0D3F82;
-}
-.gallery-item{
-    display: inline;
-    float: left;
-    width: 20%;
-    padding-top: 400px;
-    padding-left: 30px;
-}
-.left{
-    float: left;
-    width: 35%;
-    padding-top: 100px;
-    padding-left: 50px;
-    position: absolute;
-}
-.left .title{
-    color: #2648A1;
-}
-.descombrimos{
-    display: inline;
-}
-*/
