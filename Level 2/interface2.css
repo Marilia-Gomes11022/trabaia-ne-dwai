@@ -1,178 +1,111 @@
-html, body{
-    font-family: Lato;
-    width: 100%;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* funções globais*/
+body{
+    font-family: "Lato", sans-serif;
 }
+.container-1{max-width: 1200px;}
+.container-2{max-width: 700px;}
+.container-1, .container-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* funções específicas */
 header{
-    background-color: #203c86;
-    width: 100%;
-    display: block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    background-color: #203C86;
+    color: #FFFFFF;
 }
-header section {
-    width: 80%;
-    text-align: right;
+header .redes-sociais{
+    border-bottom: 1px solid #FFFFFF;
 }
-header .top {
-    height: auto;
-}
-header .top .content {
+
+
+
+
+.img-interna{
     display: inline-block;
+    position: relative;
 }
-.top .content {
-    margin-right: 80px;
-    color: #fff;
+.img-interna img{
+    position: relative;
+    z-index: 2;
 }
-.top img{
-    width: 2%;
+.img-interna figcaption{
+    padding: 8px 16px;
+    box-sizing: border-box;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    border: 1px solid blue;
+    border-radius: 4px;
+    bottom: -30px;
+    z-index: 0;
+}
+.img-interna{
+    display: inline-block;
+    position: relative;
+}
+.img-interna img{
+    position: relative;
+    z-index: 2;
+}
+.img-interna figcaption{
+    padding: 8px 16px;
+    box-sizing: border-box;
+    width: 90%;
+    left: 5%;
+    position: absolute;
+    border: 1px solid blue;
+    border-radius: 4px;
+    bottom: -30px;
+    z-index: 0;
+}
+
+
+
+
+.telegram{
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+}
+.telegram .link{
+    display: block;
+    background: rgb(4, 164, 228);
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #FFF;
+    font-weight: bold;
+}
+.telegram .link i{
     margin-right: 10px;
-    margin-top: 10px;
 }
 
-header .down {
-    height: auto;
-    display: inline-block;
-}
-header .down .logo{
-    float: left;
-}
-header .down .sumario {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-}
-.pipa {
-    display: block;
-    text-align: left;
-}
-.pipa .title h2 {
-    font-weight: bold;
-}
-.pipa .title p {
-    text-align: right;
-    color: #203c86;
-    font-size: 20px;
-    font-style: italic;
-}
-.pipa .title span {
-    text-align: right;
-    font-size: 15px;
-}
-.descobrimos {
-    display: inline-block;
-    width: 100%;
-}
-.descobrimos .left {
-    display: block;
-}
-.descobrimos .left .title span {
-    color: #203c86;
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-}
-.descobrimos .left .title h2 {
-    color: #203c86;
-    text-align: left;
-    font-weight: bold;
-}
-.descobrimos .right {
-    display: block;
-    float: right;
-}
-.gallery {
-    display: inline-block;
-}
-.gallery .title span {
-    color: #203c86;
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-}
-.gallery .title h2 {
-    color: #203c86;
-    text-align: left;
-    font-weight: bold;
-}
-.gallery picture {
-    display: block;
-    float: left;
-    margin-bottom: 20px;
-}
-footer {
-    background-color: #203c86;
-    width: 100%;
-    display: block;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-footer section {
-    width: 80%;
-    text-align: left;
-}
-.rodape {
-    height: auto;
-    display: block;
-}
-footer .rodape .logo {
-    float: left;
-}
-footer .rodape .contato{
-    display: inline-block;
-    font-size: 15px;
-}
-.rodape img {
-    width: 1.5%;
-}
-.contato .topicos {
-    color: #fff;
-}
-.rodape button {
-    color: aqua;
-} */
 
-.rodape img {
-    width: 10%;
-}
-.rodape{
-    background-color: #203c86;
-    color: white;
-    height: auto;
+
+
+header .section-nav{}
+header .section-nav .logo{}
+
+header .section-nav .menu{}
+header .section-nav .menu .item-menu{}
+header .section-nav .menu .item-menu .link{}
+header .section-nav .menu .item-menu .link:hover{}
+
+
+footer{
+    background-color: #203C86;
+
+    display: table;
     width: 100%;
-    font-size: 14px;
-    font-family: helvetica;
 }
-.rodape a{
-    text-decoration: none;
-    color: white;
-}
-.rodape p{
-    margin-bottom: 5px;
-}
-.rodape-div{
-    display: flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin: auto;
-    align-items: stretch;
-    padding: 60px 10px 40px 10px;
-}
-.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
-    display: flex;
-    width: calc(100% / 4 - 20px);
-    padding: 10px;
-}
-.rodape span{
-    font-size: 20px;
-    color: white;
-}
-.rodape-direitos{
-    width: calc(100% - 20px);
-    background-color: black;
-    padding: 10px;
-    margin: 0px;
-    text-align: center;
+
+footer .coluna-1, 
+footer .coluna-2, 
+footer .coluna-3{
+    float: left;
+    width: 300px;
+    border: 1px solid;
 }
