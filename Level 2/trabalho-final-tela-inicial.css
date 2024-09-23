@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0C2A43; 
+    color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.logout-btn {
+    background-color: #F1F1F1; 
+    color: #0C2A43;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c82333; 
+}
+
+main {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel, .right-panel {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.number {
+    color: #28a745; 
+}
+
+.class-list {
+    margin-top: 15px;
+}
+
+.class-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.class-item:last-child {
+    border-bottom: none;
+}
+
+.responsible-info {
+    font-size: 14px;
+    color: #555;
+}
+
+.view-previous-classes, .view-all-notifications {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.view-previous-classes:hover, .view-all-notifications:hover {
+    background-color: #218838; 
+}
+
+.notification {
+    background-color: ; 
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #c3e6cb; 
+}
+
+footer {
+    background-color: #F1F1F1;
+    color: #656D77;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
