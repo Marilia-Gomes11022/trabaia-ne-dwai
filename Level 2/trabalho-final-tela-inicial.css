@@ -66,9 +66,17 @@ main {
 }
 
 .content {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 20px; 
+=======
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+>>>>>>> b2e94b962b83185103bc4e3bfba77dffee7e925e
 }
 
 .left-panel, .right-panel {
