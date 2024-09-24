@@ -6,22 +6,28 @@
     <title>SISCAMP Dashboard</title>
     <link rel="stylesheet" href="trabalho-final-tela-inicial.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+    </style>
 </head>
 <body>
     <header>
         <div class="navbar">
-            <div class="logo">SISCAMP</div>
-            <div class="user-info">
-                <span>Yasmim Morais</span>
+            <div class="logo-container">
+                <img src="imgs/trabalho-final/logo-grande.png" alt="Logo SISCAMP" style="max-width: 50px; margin-right: 10px;">
+                <div class="logo">SISCAMP</div>
+            </div>
+            <div class="user-info" style="margin-left: 20px;">
+                <i class="fas fa-user"></i><span style="margin-left: 10px;">Yasmim Morais</span>
             </div>
         </div>
     </header>
 
     <nav>
-        <a href="#">Tela inicial</a>
-        <a href="#">Aulas de campo</a>
-        <a href="#">Ajuda</a>
-        <button class="logout-btn">Sair</button>
+        <a href="#"><i class="fa-solid fa-house"></i> Tela inicial</a>
+        <a href="#"><i class="fas fa-chalkboard-teacher"></i> Aulas de campo</a>
+        <a href="#"><i class="fas fa-question-circle"></i> Ajuda</a>
+        <button class="logout-btn"><i class="fas fa-sign-out-alt"></i> Sair</button>
     </nav>
 
     <main>
@@ -32,37 +38,40 @@
                     <p>Últimas aulas previstas</p>
                     <div class="class-list">
                         <div class="class-item">
-                            <p><strong>26 de outubro de 2024</strong> | Visita ao museu de Natal/RN</p>
+                            <p><i class="fas fa-calendar-day"></i> <strong>26 de outubro de 2024</strong> | Visita ao museu de Natal/RN</p>
                             <div class="responsible-info">
                                 <p>Responsável: <strong>Prof. Pedro Baesse</strong></p>
                                 <p>Matrícula: <strong>473894829</strong></p>
                             </div>
                         </div>
                         <div class="class-item">
-                            <p><strong>26 de Novembro de 2024</strong> | Visita ao museu de Natal/RN</p>
+                            <p><i class="fas fa-calendar-day"></i> <strong>26 de Novembro de 2024</strong> | Visita ao museu de Natal/RN</p>
                         </div>
                         <div class="class-item">
-                            <p><strong>26 de outubro de 2024</strong> | Visita ao museu de Natal/RN</p>
+                            <p><i class="fas fa-calendar-day"></i> <strong>26 de outubro de 2024</strong> | Visita ao museu de Natal/RN</p>
                         </div>
                     </div>
-                    <button class="view-previous-classes">Ver aulas anteriores</button>
+                    <button class="view-previous-classes"><i class="fas fa-eye"></i> Ver aulas anteriores</button>
                 </div>
             </div>
 
             <div class="right-panel">
                 <div class="notification">
-                    <h2>Você tem 1 nova notificação!</h2>
+                    <h2><i class="fas fa-bell"></i> Você tem 1 nova notificação!</h2>
                     <p><strong>Documento pendente</strong></p>
-                    <p>Clique <a href="#">aqui</a> para preencher o seu documento para a Aula de Campo: Visita ao museu de Natal/RN.</p>
+                    <p>Clique <a href="#"><i class="fas fa-file-alt"></i> aqui</a> para preencher o seu documento para a Aula de Campo: Visita ao museu de Natal/RN.</p>
                     <p><strong>Prazo de envio: até 23 de março de 2022.</strong></p>
-                    <button class="view-all-notifications">Ver todas</button>
+                    <button class="view-all-notifications"><i class="fas fa-list"></i> Ver todas</button>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Instituto Federal do Rio Grande do Norte - SISCAMP</p>
+        <p><i class="fas fa-school"></i> Instituto Federal do Rio Grande do Norte - SISCAMP</p>
+        <div>
+            <p>Tela inicial - Aulas de campo - Ajuda - Suporte</p>
+        </div>
     </footer>
 </body>
 </html>
