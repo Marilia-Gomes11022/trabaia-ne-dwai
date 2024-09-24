@@ -58,6 +58,9 @@ main {
 .content {
     display: flex;
     justify-content: space-between;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .left-panel, .right-panel {
